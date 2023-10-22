@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "lenguyenkhanhlam.h": "c",
+        "spi.h": "c",
+        "pid.h": "c"
+    }
+}

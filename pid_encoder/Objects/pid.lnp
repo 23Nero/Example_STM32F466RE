@@ -1,0 +1,17 @@
+--cpu=Cortex-M4.fp.sp
+".\objects\adc.o"
+".\objects\gpio.o"
+".\objects\interrupt.o"
+".\objects\lenguyenkhanhlam.o"
+".\objects\main.o"
+".\objects\spi.o"
+".\objects\systick.o"
+".\objects\timer.o"
+".\objects\uart.o"
+".\objects\pid.o"
+".\objects\startup_stm32f446xx.o"
+".\objects\system_stm32f4xx.o"
+--strict --scatter ".\Objects\pid.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\pid.map" -o .\Objects\pid.axf
